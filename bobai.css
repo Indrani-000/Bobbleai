@@ -1,0 +1,33 @@
+
+
+ body{
+ background: #ffffff
+ margin:0;
+ padding: 0;
+  
+ }   
+    .sign-up{
+        width: 370px;
+        margin: auto;
+        background: #fafdfe;
+        margin-top: 50px;
+        padding: 5px;
+        text-align: center;
+        box-sizing: border-box;
+
+    } 
+    .log{
+        width: 100px;
+        height: 100px;
+        padding: 5x;
+    }
+
+    .input_feild{
+
+      box-sizing: border-box;
+     
+      padding: 10px;
+     
+      border: 1px dotted white;
+
+    }

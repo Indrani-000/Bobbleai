@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" type="text/css" href="bobai.css">
+<script>
+function validateForm() {
+  var x = document.forms["myForm"]["firstname"].value;
+  var y= document.forms["myForm"]["emailaddress"].value;
+  var z= document.forms["myForm"]["password"].value;
+    if (x == "" || y=="" || z=="") {
+    alert(" must be filled out");
+    return false;
+  }
+}
+</script>
+
+
+<body>
+<div class="sign-up">
+<img src="logo.jpg" class="log">
+<h5>SIGN UP</h5>
+<h4>Create your account</h4>
+<h8> Lorem ipsum dolor sit amet,consectetur adipiscing eit</h8>
+<form id="myForm" action="" onsubmit="return validateForm()">
+ <div>   
+    <div class="col-md-12 center-align">
+    <a class="oauth-container btn darken-4 white black-text" href="/users/google-oauth/" style="text-transform:none">
+        <div class="left">
+            <img width="15px" style="margin-top:7px; margin-right:8px" alt="Google sign-in" 
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/512px-Google_%22G%22_Logo.svg.png" />
+        </div>
+        Login with Google
+    </a>
+
+
+<!-- Compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+
+
+
+
+    <a class="oauth-container btn darken-4 white black-text" href="/users/google-oauth/" style="text-transform:none">
+        <div class="left">
+            <img width="20px" style="margin-top:7px; margin-right:8px" alt="Facebook sign-in" 
+                src="https://images.vexels.com/media/users/3/137253/isolated/preview/90dd9f12fdd1eefb8c8976903944c026-facebook-icon-logo-by-vexels.png" />
+        </div>
+        Login with Facebook
+    </a>
+</div>
+
+<!-- Compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+    
+</div>
+    <p class="or">or</p>
+    <form >
+    <div class="input_feild">
+
+        <input class="form-control" type="text" placeholder="First Name" id="firstname">
+
+        <input type="text" placeholder="Last Name" id="lastname">
+
+        <input type="text" placeholder="Email Address" id="emailaddress">
+    
+        <input type="text" placeholder="Password" id="password">
+    
+    </form>
+    
+    </div>
+     
+    
+    <p> By clicking Sign Up, you agree to our Terms of Use and our Privacy Policy. <p>
+   <button type="button" class="sign-up"> SIGN UP </button>
+              
+</div>
+
+</form>
+
+</body>
+</html>
